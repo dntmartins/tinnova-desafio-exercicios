@@ -1,2 +1,3 @@
-# tinnova-desafio-exercicios
-Desafio Tinnova exercícios
+# Desafio Tinnova exercícios.
+
+Contém os 4 primeiros exercícios da lista.
