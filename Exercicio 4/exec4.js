@@ -1,15 +1,11 @@
 function somarMultiplos(x) { 
- let multiplosTres = 0;
- let multiplosCinco = 0;
+ let soma = 0;
 
- for(i = 0; i <= x; i++) {
-    if(i % 3 === 0) {
-      multiplosTres += i;
-    }
-    if(i % 5 === 0) {
-      multiplosCinco += i;
+ for(i = 0; i < x; i++) {
+    if(i % 3 === 0 || i % 5 === 0) {
+      soma += i;
     }
  }
- return multiplosTres + multiplosCinco
+ return soma
 }
 console.log(somarMultiplos(10));
